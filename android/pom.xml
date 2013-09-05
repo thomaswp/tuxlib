@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>tuxkids</groupId>
+    <artifactId>tuxlib-parent</artifactId>
+    <version>1.7.2</version>
+  </parent>
+
+  <artifactId>tuxlib-android</artifactId>
+  <packaging>jar</packaging>
+  <name>tuxlib-android</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>tuxkids</groupId>
+      <artifactId>tuxlib</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.googlecode.playn</groupId>
+      <artifactId>playn-android</artifactId>
+      <version>${playn.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.googlecode.playn</groupId>
+      <artifactId>playn-android-nativelib</artifactId>
+      <version>1.0</version>
+      <scope>runtime</scope>
+      <type>so</type>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.android</groupId>
+      <artifactId>android</artifactId>
+      <version>${android.version}</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+
+</project>

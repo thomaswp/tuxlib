@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>tuxkids</groupId>
+    <artifactId>tuxlib-parent</artifactId>
+    <version>1.7.2</version>
+  </parent>
+
+  <artifactId>tuxlib-html</artifactId>
+  <packaging>jar</packaging>
+  <name>tuxlib-html</name>
+
+  <properties>
+    <gwt.module>tuxkids.TuxLibGame</gwt.module>
+    <gwt.name>tuxlib</gwt.name>
+    <!-- Desired Google App Engine SDK version -->
+    <gae.version>1.6.1</gae.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>tuxkids</groupId>
+      <artifactId>tuxlib</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>tuxkids</groupId>
+      <artifactId>tuxlib</artifactId>
+      <version>${project.version}</version>
+      <classifier>sources</classifier>
+    </dependency>
+
+    <dependency>
+      <groupId>com.googlecode.playn</groupId>
+      <artifactId>playn-html</artifactId>
+      <version>${playn.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.googlecode.playn</groupId>
+      <artifactId>playn-html</artifactId>
+      <version>${playn.version}</version>
+      <classifier>sources</classifier>
+    </dependency>
+
+    <!-- Start Google App Engine dependencies -->
+    <!-- These can be removed if you don't wish to deploy to Google App Engine -->
+    <dependency>
+      <groupId>com.google.appengine</groupId>
+      <artifactId>appengine-api-1.0-sdk</artifactId>
+      <version>${gae.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.appengine</groupId>
+      <artifactId>appengine-api-labs</artifactId>
+      <version>${gae.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.appengine</groupId>
+      <artifactId>appengine-testing</artifactId>
+      <version>${gae.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.appengine</groupId>
+      <artifactId>appengine-api-stubs</artifactId>
+      <version>${gae.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- End Google App Engine dependencies -->
+  </dependencies>
+  
+</project>

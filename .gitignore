@@ -1,0 +1,13 @@
+*.class
+*.dll
+*.so
+*.gwt-log
+.metadata/*
+.DS_Store
+Thumbs.db
+ProgressLog.launch
+*/target/
+html/gwt-unitCache/*
+html/war/*
+android/assets
+ios/assets/*
