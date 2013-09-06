@@ -27,7 +27,7 @@ spyqqqdia@yahoo.com
  * Created on April 18, 2002, 12:19 PM
  */
 
-package tuxkids.tuxlib;
+package tuxkids.tuxlib.sobol;
 
 /** <p>Generator for the Sobol sequence. Uses the Gray code counter and bitwise 
   operations for very fast point generation.</p>

@@ -4,7 +4,7 @@
  * Created on April 26, 2002, 6:04 PM
  */
 
-package tuxkids.tuxlib;
+package tuxkids.tuxlib.sobol;
 
 
 /** <p>Interface and methods to compute L2-discrepancy for low
