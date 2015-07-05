@@ -11,4 +11,5 @@
 Thumbs.db
 */target/
 */bin/*
-./pom.xml
+*.project
+pom.xml
