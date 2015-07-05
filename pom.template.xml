@@ -3,9 +3,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>edu.ncsu</groupId>
-    <artifactId>immigration</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>parent-group-id</groupId>
+    <artifactId>parent-artifact-id</artifactId>
+    <version>parent-version</version>
   </parent>
   
   <groupId>tuxkids</groupId>

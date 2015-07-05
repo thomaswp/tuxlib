@@ -1,6 +1,0 @@
-<module>
-  <inherits name="playn.PlayN"/>
-  <inherits name="tripleplay.TriplePlay"/>
-
-  <source path="tuxlib"/>
-</module>

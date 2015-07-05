@@ -1,0 +1,9 @@
+<module>
+	<inherits name="playn.PlayN" />
+	<inherits name="react" />
+
+	<source path='util' />
+	<source path='util.field' />
+	<source path='util.layer' />
+
+</module>
