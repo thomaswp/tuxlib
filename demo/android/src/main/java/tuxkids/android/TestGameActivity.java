@@ -7,8 +7,8 @@ import tuxkids.core.TestGame;
 
 public class TestGameActivity extends GameActivity {
 
-  @Override
-  public void main(){
-    PlayN.run(new TestGame());
-  }
+	@Override
+	public void main(){
+		PlayN.run(new TestGame());
+	}
 }
